@@ -1,0 +1,1104 @@
+{
+    "properties": [
+        {
+          "Uu_id": 1,
+          "agentEmail": "ravi.kumar@gmail.com",
+          "agentName": "Ravi Kumar",
+          "agentPhone": "+91-9876543210",
+          "amenities": [
+            "WiFi",
+            "Parking",
+            "24/7 Security"
+          ],
+          "description": "A beautiful and modern 2BHK apartment in the heart of Koramangala.",
+          "location": "Koramangala",
+          "photos": [
+            "https://images.oyoroomscdn.com/uploads/hotel_image/155753/medium/wrxvmcdqynsx.jpg",
+            "https://images.oyoroomscdn.com/uploads/hotel_image/155753/medium/hnisqxvkpslv.jpg",
+            "https://images.oyoroomscdn.com/uploads/hotel_image/155753/medium/hknclpcqhiql.jpg"
+          ],
+          "price": "13000",
+          "title": "Modern Apartment in Koramangala"
+        },
+        {
+          "Uu_id": 2,
+          "agentEmail": "amit.sharma@gmail.com",
+          "agentName": "Amit Sharma",
+          "agentPhone": "+91-9876543211",
+          "amenities": [
+            "WiFi",
+            "Housekeeping",
+            "Meals"
+          ],
+          "description": "A cozy and affordable PG accommodation in HSR Layout.",
+          "location": "HSR Layout",
+          "photos": [
+            "https://images.oyoroomscdn.com/uploads/hotel_image/38353/medium/2b32bc48b6bb9925.jpg",
+            "https://images.oyoroomscdn.com/uploads/hotel_image/38353/medium/4a2ae9d15f7ff65b.jpg",
+            "https://images.oyoroomscdn.com/uploads/hotel_image/38353/medium/8b79b3f6bc94843a.jpg"
+          ],
+          "price": 8000,
+          "title": "Cozy PG in HSR Layout"
+        },
+        {
+          "Uu_id": 3,
+          "agentEmail": "priya.singh@gmail.com",
+          "agentName": "Priya Singh",
+          "agentPhone": "+91-9876543212",
+          "amenities": [
+            "WiFi",
+            "Swimming Pool",
+            "Gym"
+          ],
+          "description": "A luxurious 4BHK villa with a private garden in Whitefield.",
+          "location": "Whitefield",
+          "photos": [
+            "https://images.oyoroomscdn.com/uploads/hotel_image/110273/medium/1f7cf5eb36f16451.jpg",
+            "https://images.oyoroomscdn.com/uploads/hotel_image/110273/medium/7f723ecff7adcd09.jpg",
+            "https://images.oyoroomscdn.com/uploads/hotel_image/110273/medium/83322d6075340487.jpg"
+          ],
+          "price": "35050",
+          "title": "Spacious Villa in Whitefield"
+        },
+        {
+          "Uu_id": 4,
+          "agentEmail": "suresh.patel@gmail.com",
+          "agentName": "Suresh Patel",
+          "agentPhone": "+91-9876543213",
+          "amenities": [
+            "WiFi",
+            "Gym",
+            "Parking"
+          ],
+          "description": "A stylish 1BHK studio apartment in the vibrant area of Indiranagar.",
+          "location": "Indiranagar",
+          "photos": [
+            "https://images.oyoroomscdn.com/uploads/hotel_image/109676/medium/xwcmnuxtkqpq.jpg",
+            "https://images.oyoroomscdn.com/uploads/hotel_image/109676/medium/cfrqwqxgrxqq.jpg",
+            "https://images.oyoroomscdn.com/uploads/hotel_image/109676/medium/elcfcurxmtkl.jpg"
+          ],
+          "price": 12000,
+          "title": "1BHK Studio in Indiranagar"
+        },
+        {
+          "Uu_id": 5,
+          "agentEmail": "vikas.verma@gmail.com",
+          "agentName": "Vikas Verma",
+          "agentPhone": "+91-9876543214",
+          "amenities": [
+            "WiFi",
+            "Housekeeping",
+            "Meals"
+          ],
+          "description": "A budget-friendly PG accommodation in BTM Layout.",
+          "location": "BTM Layout",
+          "photos": [
+            "https://images.oyoroomscdn.com/uploads/hotel_image/100369/medium/aad4b0550b0b4266.jpg",
+            "https://images.oyoroomscdn.com/uploads/hotel_image/100369/medium/5147db2e2937eac5.jpg",
+            "https://images.oyoroomscdn.com/uploads/hotel_image/100369/medium/12a1791030bec7ae.jpg"
+          ],
+          "price": 6000,
+          "title": "Budget PG in BTM Layout"
+        },
+        {
+          "Uu_id": 6,
+          "agentEmail": "anita.desai@gmail.com",
+          "agentName": "Anita Desai",
+          "agentPhone": "+91-9876543215",
+          "amenities": [
+            "WiFi",
+            "Gym",
+            "24/7 Security"
+          ],
+          "description": "A luxurious 3BHK condo with modern amenities in Electronic City.",
+          "location": "Electronic City",
+          "photos": [
+            "https://images.oyoroomscdn.com/uploads/hotel_image/105727/medium/7a4d886a2c9ed274.jpg",
+            "https://images.oyoroomscdn.com/uploads/hotel_image/105727/medium/90f51df3e4023065.jpg",
+            "https://images.oyoroomscdn.com/uploads/hotel_image/105727/medium/27aa2e9a9c86db45.jpg"
+          ],
+          "price": 20000,
+          "title": "Luxury Condo in Electronic City"
+        },
+        {
+          "Uu_id": 7,
+          "agentEmail": "rahul.mehta@gmail.com",
+          "agentName": "Rahul Mehta",
+          "agentPhone": "+91-9876543216",
+          "amenities": [
+            "WiFi",
+            "Parking",
+            "24/7 Security"
+          ],
+          "description": "A spacious 2BHK flat in a prime location in JP Nagar.",
+          "location": "JP Nagar",
+          "photos": [
+            "https://housing-images.n7net.in/4f2250e8/4763f3e28a26b7763a05398749faedd3/v0/fs/jcsv_pride-j_p_nagar_9-bengaluru-jcsv_builders_and_developers.jpeg",
+            "https://housing-images.n7net.in/012c1500/421fde88b513865bc46b4f9fdf1811ea/v0/fs.png",
+            "https://housing-images.n7net.in/012c1500/b39944ed485d316639583d75838cd8ad/v0/fs.png"
+          ],
+          "price": 18000,
+          "title": "2BHK Flat in JP Nagar"
+        },
+        {
+          "Uu_id": 8,
+          "agentEmail": "sunita.rao@gmail.com",
+          "agentName": "Sunita Rao",
+          "agentPhone": "+91-9876543217",
+          "amenities": [
+            "WiFi",
+            "Housekeeping",
+            "Meals"
+          ],
+          "description": "A single room accommodation in a shared apartment in Bellandur.",
+          "location": "Bellandur",
+          "photos": [
+            "https://images.oyoroomscdn.com/uploads/hotel_image/41318/medium/3b20e31a13e83c47.jpg",
+            "https://images.oyoroomscdn.com/uploads/hotel_image/41318/medium/e29a628f637a3b6c.jpg",
+            "https://images.oyoroomscdn.com/uploads/hotel_image/41318/medium/4b443c072a544948.jpg"
+          ],
+          "price": 5000,
+          "title": "Single Room in Bellandur"
+        },
+        {
+          "Uu_id": 9,
+          "agentEmail": "manoj.jain@gmail.com",
+          "agentName": "Manoj Jain",
+          "agentPhone": "+91-9876543218",
+          "amenities": [
+            "WiFi",
+            "Gym",
+            "Parking"
+          ],
+          "description": "A well-furnished 3BHK apartment in Marathahalli.",
+          "location": "Marathahalli",
+          "photos": [
+            "https://housing-images.n7net.in/4f2250e8/709128c44c7aebc299db7f1a6e5177de/v0/fs.jpeg",
+            "https://housing-images.n7net.in/01c16c28/d0a13af0e1ed95179b8a055138a89db0/v0/fs/3_bhk_apartment-for-sale-marathahalli-Bangalore-bedroom.jpg",
+            "https://housing-images.n7net.in/01c16c28/0b3fd350d2f18f85dbd20622f91d697b/v0/fs/3_bhk_apartment-for-sale-marathahalli-Bangalore-hall.jpg"
+          ],
+          "price": 22000,
+          "title": "3BHK Apartment in Marathahalli"
+        },
+        {
+          "Uu_id": 10,
+          "agentEmail": "nisha.gupta@gmail.com",
+          "agentName": "Nisha Gupta",
+          "agentPhone": "+91-9876543219",
+          "amenities": [
+            "WiFi",
+            "Swimming Pool",
+            "Gym"
+          ],
+          "description": "A luxurious penthouse with a stunning view in Sarjapur.",
+          "location": "Sarjapur",
+          "photos": [
+            "https://imagecdn.99acres.com/media1/25168/0/503360571M-1720466490331.jpg",
+            "https://imagecdn.99acres.com/media1/25168/0/503360573M-1720466496287.jpg",
+            "https://imagecdn.99acres.com/media1/25168/0/503360561M-1720466490094.jpg"
+          ],
+          "price": 33000,
+          "title": "Penthouse in Sarjapur"
+        },
+        {
+          "Uu_id": 11,
+          "agentEmail": "kiran.rao@gmail.com",
+          "agentName": "Kiran Rao",
+          "agentPhone": "+91-9876543220",
+          "amenities": [
+            "WiFi",
+            "Parking",
+            "24/7 Security"
+          ],
+          "description": "A beautiful and modern 2BHK apartment in the heart of Sarjapur.",
+          "location": "Sarjapur",
+          "photos": [
+            "https://housing-images.n7net.in/4f2250e8/7e54a6dc0f7180dab220a05e905f89d7/v0/fs/kolte_patil_24k_grazio-koramangala-bengaluru-kolte_patil_developers_limited.png",
+            "https://housing-images.n7net.in/012c1500/d538bb5d613c421f97ef2d82c9bb2617/v0/fs.jpeg",
+            "https://housing-images.n7net.in/012c1500/ee5d1ad054196b1b6c0ec9b61314778d/v0/fs.jpeg"
+          ],
+          "price": 14500,
+          "title": "Modern Apartment in Sarjapur"
+        },
+        {
+          "Uu_id": 12,
+          "agentEmail": "pooja.nair@gmail.com",
+          "agentName": "Pooja Nair",
+          "agentPhone": "+91-9876543221",
+          "amenities": [
+            "WiFi",
+            "Housekeeping",
+            "Meals"
+          ],
+          "description": "A cozy and affordable PG accommodation in Sarjapur.",
+          "location": "Sarjapur",
+          "photos": [
+            "https://img.cofynd.com/images/latest_images_2024/a62f01ade84e7bc8b0d819843d6aff2ff0f78cbe.webp",
+            "https://img.cofynd.com/images/latest_images_2024/0042900994f2162e4b62f49e45e03d504a8e28f3.webp",
+            "https://img.cofynd.com/images/latest_images_2024/2fdf4836fb79ed91f23019ebb661c713b8d02fcb.webp"
+          ],
+          "price": "5005",
+          "title": "Cozy PG "
+        },
+        {
+          "Uu_id": 13,
+          "agentEmail": "arun.khanna@gmail.com",
+          "agentName": "Arun Khanna",
+          "agentPhone": "+91-9876543222",
+          "amenities": [
+            "WiFi",
+            "Swimming Pool",
+            "Gym"
+          ],
+          "description": "A luxurious 4BHK villa with a private garden in Sarjapur.",
+          "location": "Sarjapur",
+          "photos": [
+            "https://img.staticmb.com/mbphoto/property/cropped_images/2020/Sep/20/Photo_h0_w320/51106962_1_01_0_320.jpg",
+            "https://img.staticmb.com/mbphoto/property/cropped_images/2022/Jul/03/Photo_h0_w320/61924045_2_MG-20201018-WA0029_0_320.jpg",
+            "https://img.staticmb.com/mbphoto/property/cropped_images/2022/Jul/03/Photo_h0_w320/61924045_11_MG-20201018-WA0042_0_320.jpg"
+          ],
+          "price": 30000,
+          "title": "Spacious Villa in Sarjapur"
+        },
+        {
+          "Uu_id": 14,
+          "agentEmail": "maya.iyer@gmail.com",
+          "agentName": "Maya Iyer",
+          "agentPhone": "+91-9876543223",
+          "amenities": [
+            "WiFi",
+            "Gym",
+            "Parking"
+          ],
+          "description": "A stylish 1BHK studio apartment in the vibrant area of Sarjapur.",
+          "location": "Sarjapur",
+          "photos": [
+            "https://imagecdn.99acres.com/media1/25605/10/512110945M-1723650063972.jpg",
+            "https://imagecdn.99acres.com/media1/25605/10/512110937M-1723650064424.jpg",
+            "https://imagecdn.99acres.com/media1/25605/10/512110931M-1723650061203.jpg"
+          ],
+          "price": 10000,
+          "title": "1BHK Studio in Sarjapur"
+        },
+        {
+          "Uu_id": 15,
+          "agentEmail": "sandeep.reddy@gmail.com",
+          "agentName": "Sandeep Reddy",
+          "agentPhone": "+91-9876543224",
+          "amenities": [
+            "WiFi",
+            "Housekeeping",
+            "Meals"
+          ],
+          "description": "A budget-friendly PG accommodation in Sarjapur.",
+          "location": "Sarjapur",
+          "photos": [
+            "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2023/Nov/28/Photo_h400_w540/GR2-407945-1956507_400_540.jpeg",
+            "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2023/Nov/28/Photo_h400_w540/GR2-407945-1956509_400_540.jpeg",
+            "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2023/Nov/23/full_photo/GR2-407945-1950629.jpeg"
+          ],
+          "price": "4505",
+          "title": "Budget PG in Sarjapur"
+        },
+        {
+          "Uu_id": 16,
+          "agentEmail": "neha.joshi@gmail.com",
+          "agentName": "Neha Joshi",
+          "agentPhone": "+91-9876543225",
+          "amenities": [
+            "WiFi",
+            "Gym",
+            "24/7 Security"
+          ],
+          "description": "A luxurious 3BHK condo with modern amenities in Sarjapur.",
+          "location": "Sarjapur",
+          "photos": [
+            "https://img.staticmb.com/mbphoto/property/cropped_images/2023/Aug/16/Photo_h600_w900/68625855_5_OBHATWINCLUBCAM012_600_900.jpg",
+            "https://img.staticmb.com/mbphoto/property/cropped_images/2023/Aug/16/Photo_h300_w450/68625855_1_itchenF_300_450.jpg",
+            "https://img.staticmb.com/mbphoto/property/cropped_images/2023/Aug/16/Photo_h300_w450/68625855_4_OBHATWINCLUBCAM02_300_450.jpg"
+          ],
+          "price": 18000,
+          "title": "Luxury Condo in Sarjapur"
+        },
+        {
+          "Uu_id": 17,
+          "agentEmail": "ajay.malhotra@gmail.com",
+          "agentName": "Ajay Malhotra",
+          "agentPhone": "+91-9876543226",
+          "amenities": [
+            "WiFi",
+            "Parking",
+            "24/7 Security"
+          ],
+          "description": "A spacious 2BHK flat in a prime location in Sarjapur.",
+          "location": "Sarjapur",
+          "photos": [
+            "https://img.staticmb.com/mbphoto/property/cropped_images/2024/Jul/10/Photo_h0_w320/73757227_9_BR2_0_320.jpeg",
+            "https://img.staticmb.com/mbphoto/property/cropped_images/2024/Jul/10/Photo_h0_w320/73757227_12_1_0_320.jpeg",
+            "https://img.staticmb.com/mbphoto/property/cropped_images/2024/Jul/10/Photo_h0_w320/73757227_8_BR4_0_320.jpeg"
+          ],
+          "price": "16507",
+          "title": "2BHK Flat in Sarjapur"
+        },
+        {
+          "Uu_id": 18,
+          "agentEmail": "rohit.kapoor@gmail.com",
+          "agentName": "Rohit Kapoor",
+          "agentPhone": "+91-9876543227",
+          "amenities": [
+            "WiFi",
+            "Housekeeping",
+            "Meals"
+          ],
+          "description": "A single room accommodation in a shared apartment in Sarjapur.",
+          "location": "Sarjapur",
+          "photos": [
+            "https://img.staticmb.com/mbphoto/property/cropped_images/2023/Nov/22/Photo_h0_w320/49945728_5_IMG-20231121-WA0005_0_320.jpg",
+            "https://img.staticmb.com/mbphoto/property/cropped_images/2023/Nov/22/Photo_h0_w320/49945728_6_IMG-20231121-WA0004_0_320.jpg",
+            "https://img.staticmb.com/mbphoto/property/cropped_images/2023/Nov/22/Photo_h0_w320/49945728_7_IMG-20231121-WA0003_0_320.jpg"
+          ],
+          "price": 5500,
+          "title": "Single Room in Sarjapur"
+        },
+        {
+          "Uu_id": 19,
+          "agentEmail": "seema.arora@gmail.com",
+          "agentName": "Seema Arora",
+          "agentPhone": "+91-9876543228",
+          "amenities": [
+            "WiFi",
+            "Gym",
+            "Parking"
+          ],
+          "description": "A well-furnished 3BHK apartment in Koramangala.",
+          "location": "Koramangala",
+          "photos": [
+            "https://img.staticmb.com/mbimages/project/Photo_h0_w320/2023/08/22/Project-Photo-31-Vaishnavi-Oasis-Bangalore-5092946_867_1156_0_320.jpg",
+            "https://img.staticmb.com/mbimages/project/Photo_h0_w320/2019/11/13/Project-Photo-25-Vaishnavi-Oasis-Bangalore-5092946_505_898_0_320.jpg",
+            "https://img.staticmb.com/mbimages/project/Photo_h0_w320/2019/11/13/Project-Photo-26-Vaishnavi-Oasis-Bangalore-5092946_505_898_0_320.jpg"
+          ],
+          "price": 20000,
+          "title": "3BHK Apartment in Koramangala"
+        },
+        {
+          "Uu_id": 20,
+          "agentEmail": "kajal.tiwari@gmail.com",
+          "agentName": "Kajal Tiwari",
+          "agentPhone": "+91-9876543229",
+          "amenities": [
+            "WiFi",
+            "Swimming Pool",
+            "Gym"
+          ],
+          "description": "A luxurious penthouse with a stunning view in Koramangala.",
+          "location": "Koramangala",
+          "photos": [
+            "https://img.staticmb.com/mbimages/project/Photo_h0_w320/2024/08/13/Project-Photo-3-ATCO-LA-VIVANT-Bangalore-5416699_1145_1600_0_320.jpg",
+            "https://img.staticmb.com/mbphoto/property/cropped_images/2024/Jun/07/Photo_h0_w320/73191401_3_PropertyImage366-8425896594932_0_320.jpg",
+            "https://img.staticmb.com/mbimages/project/Photo_h0_w320/2024/08/13/Project-Photo-7-ATCO-LA-VIVANT-Bangalore-5416699_900_1600_0_320.jpg"
+          ],
+          "price": 35000,
+          "title": "Penthouse in Koramangala"
+        },
+        {
+          "Uu_id": 21,
+          "agentEmail": "vivek.singh@gmail.com",
+          "agentName": "Vivek Singh",
+          "agentPhone": "+91-9876543230",
+          "amenities": [
+            "WiFi",
+            "Parking",
+            "24/7 Security"
+          ],
+          "description": "A beautiful and modern 2BHK apartment in the heart of Whitefield.",
+          "location": "Whitefield",
+          "photos": [
+            "https://img.staticmb.com/mbimages/project/Photo_h0_w320/2019/12/30/Project-Photo-41-SNN-Raj-Greenbay-Bangalore-5082567_667_1000_0_320.jpg",
+            "https://img.staticmb.com/mbphoto/property/cropped_images/2024/Jul/07/Photo_h0_w320/73700481_10_allsSBBWunmarked1080_0_320.jpg",
+            "https://img.staticmb.com/mbphoto/property/cropped_images/2024/Jul/07/Photo_h0_w320/73700481_11_allskx6Kunmarked1080_0_320.jpg"
+          ],
+          "price": 12000,
+          "title": "Modern Apartment in Whitefield"
+        },
+        {
+          "Uu_id": 22,
+          "agentEmail": "arjun.thakur@gmail.com",
+          "agentName": "Arjun Thakur",
+          "agentPhone": "+91-9876543231",
+          "amenities": [
+            "WiFi",
+            "Housekeeping",
+            "Meals"
+          ],
+          "description": "A cozy and affordable PG accommodation in Whitefield.",
+          "location": "Whitefield",
+          "photos": [
+            "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2021/Sep/21/Photo_h400_w540/GR2-235279-1110939_400_540.jpg",
+            "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2021/Sep/21/Photo_h400_w540/GR2-235279-1110953_400_540.jpg",
+            "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2021/Sep/21/Photo_h400_w540/GR2-235279-1110983_400_540.jpg"
+          ],
+          "price": 5500,
+          "title": "Cozy PG in Whitefield"
+        },
+        {
+          "Uu_id": 23,
+          "agentEmail": "meera.kaur@gmail.com",
+          "agentName": "Meera Kaur",
+          "agentPhone": "+91-9876543232",
+          "amenities": [
+            "WiFi",
+            "Swimming Pool",
+            "Gym"
+          ],
+          "description": "A luxurious 4BHK villa with a private garden in Indiranagar.",
+          "location": "Indiranagar",
+          "photos": [
+            "https://img.staticmb.com/mbphoto/property/cropped_images/2023/Sep/23/Photo_h0_w320/60929655_1_IMG-20211105-WA0002_0_320.jpg",
+            "https://img.staticmb.com/mbphoto/property/cropped_images/2023/Oct/31/Photo_h0_w320/69818431_10_PropertyImage190-26957416396817_0_320.jpg",
+            "https://img.staticmb.com/mbphoto/property/cropped_images/2023/Oct/31/Photo_h0_w320/69818431_19_PropertyImage626-4625401081001_0_320.jpg"
+          ],
+          "price": 22500,
+          "title": "Spacious Villa in Indiranagar"
+        },
+        {
+          "Uu_id": 24,
+          "agentEmail": "nikhil.menon@gmail.com",
+          "agentName": "Nikhil Menon",
+          "agentPhone": "+91-9876543233",
+          "amenities": [
+            "WiFi",
+            "Gym",
+            "Parking"
+          ],
+          "description": "A stylish 1BHK studio apartment in the vibrant area of BTM Layout.",
+          "location": "BTM Layout",
+          "photos": [
+            "https://img.staticmb.com/mbphoto/property/cropped_images/2023/Jan/24/Photo_h0_w320/65283339_12_MG20190303WA0010_0_320.jpg",
+            "https://img.staticmb.com/mbphoto/property/cropped_images/2023/Jan/24/Photo_h0_w320/65283339_15_MG20190303WA0006_0_320.jpg",
+            "https://img.staticmb.com/mbphoto/property/cropped_images/2023/Jan/24/Photo_h0_w320/65283339_10_MG20190303WA0023_0_320.jpg"
+          ],
+          "price": 15000,
+          "title": "1BHK Studio in BTM Layout"
+        },
+        {
+          "Uu_id": 25,
+          "agentEmail": "anil.agarwal@gmail.com",
+          "agentName": "Anil Agarwal",
+          "agentPhone": "+91-9876543234",
+          "amenities": [
+            "WiFi",
+            "Housekeeping",
+            "Meals"
+          ],
+          "description": "A budget-friendly PG accommodation in Indiranagar.",
+          "location": "Indiranagar",
+          "photos": [
+            "https://img.staticmb.com/mbphoto/property/cropped_images/2024/Feb/05/Photo_h0_w320/71244663_1_PropertyImage828-5582399874252_0_320.jpg",
+            "https://img.staticmb.com/mbphoto/property/cropped_images/2024/Feb/05/Photo_h0_w320/71244663_6_PropertyImage380-0044046315726_0_320.jpg",
+            "https://img.staticmb.com/mbphoto/property/cropped_images/2024/Feb/05/Photo_h0_w320/71244663_3_PropertyImage86-59305259598482_0_320.jpg"
+          ],
+          "price": 5000,
+          "title": "Budget PG in Indiranagar"
+        },
+        {
+          "Uu_id": 26,
+          "agentEmail": "sarika.sinha@gmail.com",
+          "agentName": "Sarika Sinha",
+          "agentPhone": "+91-9876543235",
+          "amenities": [
+            "WiFi",
+            "Gym",
+            "24/7 Security"
+          ],
+          "description": "A luxurious 3BHK condo with modern amenities in Indiranagar.",
+          "location": "Indiranagar",
+          "photos": [
+            "https://img.staticmb.com/mbimages/project/Photo_h470_w1080/Project-Photo-13-Shriram-Signia-Bangalore-5008182_480_1366_470_1080.JPG",
+            "https://img.staticmb.com/mbphoto/property/cropped_images/2024/Jul/07/Photo_h0_w320/73323225_1_1720339093455-941_0_320.jpg",
+            "https://img.staticmb.com/mbphoto/property/cropped_images/2024/Jul/07/Photo_h0_w320/73323225_13_1720339096962-656_0_320.jpg"
+          ],
+          "price": 22000,
+          "title": "Luxury Condo in Indiranagar"
+        },
+        {
+          "Uu_id": 27,
+          "agentEmail": "tara.shukla@gmail.com",
+          "agentName": "Tara Shukla",
+          "agentPhone": "+91-9876543236",
+          "amenities": [
+            "WiFi",
+            "Parking",
+            "24/7 Security"
+          ],
+          "description": "A spacious 2BHK flat in a prime location in Indiranagar.",
+          "location": "Indiranagar",
+          "photos": [
+            "https://img.staticmb.com/mbphoto/property/cropped_images/2024/Feb/19/Photo_h0_w320/71463181_4_IMG20240218190541_0_320.jpg",
+            "https://img.staticmb.com/mbphoto/property/cropped_images/2024/Feb/19/Photo_h0_w320/71463181_7_IMG20240218190628_0_320.jpg",
+            "https://img.staticmb.com/mbphoto/property/cropped_images/2024/Feb/19/Photo_h0_w320/71463181_17_IMG20240218190819_0_320.jpg"
+          ],
+          "price": 15500,
+          "title": "2BHK Flat in Indiranagar"
+        },
+        {
+          "Uu_id": 28,
+          "agentEmail": "varun.desai@gmail.com",
+          "agentName": "Varun Desai",
+          "agentPhone": "+91-9876543237",
+          "amenities": [
+            "WiFi",
+            "Housekeeping",
+            "Meals"
+          ],
+          "description": "A single room accommodation in a shared apartment in Indiranagar.",
+          "location": "Indiranagar",
+          "photos": [
+            "https://img.staticmb.com/mbphoto/property/cropped_images/2024/Aug/26/Photo_h0_w320/74541407_2_PropertyImage1724650914377_0_320.jpg",
+            "https://img.staticmb.com/mbphoto/property/cropped_images/2024/Aug/26/Photo_h0_w320/74541407_3_PropertyImage1724650928493_0_320.jpg",
+            "https://img.staticmb.com/mbphoto/property/cropped_images/2024/Aug/26/Photo_h0_w320/74541407_10_PropertyImage1724650994530_0_320.jpg"
+          ],
+          "price": 7500,
+          "title": "Single Room in Indiranagar"
+        },
+        {
+          "Uu_id": 29,
+          "agentEmail": "rajiv.mehta@gmail.com",
+          "agentName": "Rajiv Mehta",
+          "agentPhone": "+91-9876543238",
+          "amenities": [
+            "WiFi",
+            "Gym",
+            "Parking"
+          ],
+          "description": "A well-furnished 3BHK apartment in Indiranagar.",
+          "location": "Indiranagar",
+          "photos": [
+            "https://img.staticmb.com/mbphoto/property/cropped_images/2024/Apr/12/Photo_h0_w320/72318571_1_MG20240410WA0040_0_320.jpg",
+            "https://img.staticmb.com/mbphoto/property/cropped_images/2024/Apr/12/Photo_h0_w320/72318571_10_MG20240410WA0031_0_320.jpg",
+            "https://img.staticmb.com/mbphoto/property/cropped_images/2024/Apr/12/Photo_h0_w320/72318571_7_MG20240410WA0034_0_320.jpg"
+          ],
+          "price": 23500,
+          "title": "3BHK Apartment in Indiranagar"
+        },
+        {
+          "Uu_id": 30,
+          "agentEmail": "gaurav.patel@gmail.com",
+          "agentName": "Gaurav Patel",
+          "agentPhone": "+91-9876543239",
+          "amenities": [
+            "WiFi",
+            "Swimming Pool",
+            "Gym"
+          ],
+          "description": "A luxurious penthouse with a stunning view in Indiranagar.",
+          "location": "Indiranagar",
+          "photos": [
+            "https://img.staticmb.com/mbimages/project/Photo_h0_w320/2024/08/13/Project-Photo-3-ATCO-LA-VIVANT-Bangalore-5416699_1145_1600_0_320.jpg",
+            "https://img.staticmb.com/mbphoto/property/cropped_images/2024/Jun/07/Photo_h0_w320/73191401_3_PropertyImage366-8425896594932_0_320.jpg",
+            "https://img.staticmb.com/mbimages/project/Photo_h0_w320/2024/08/13/Project-Photo-17-ATCO-LA-VIVANT-Bangalore-5416699_1600_1600_0_320.jpg"
+          ],
+          "price": 36500,
+          "title": "Penthouse in Indiranagar"
+        },
+        {
+          "Uu_id": 31,
+          "agentEmail": "sunil.joshi@gmail.com",
+          "agentName": "Sunil Joshi",
+          "agentPhone": "+91-9876543240",
+          "amenities": [
+            "WiFi",
+            "Parking",
+            "24/7 Security"
+          ],
+          "description": "A beautiful and modern 2BHK apartment in the heart of HSR Layout.",
+          "location": "HSR Layout",
+          "photos": [
+            "https://img.staticmb.com/mbimages/project/Photo_h0_w320/2024/04/09/Project-Photo-19-Advaitha-Aksha-Bangalore-5121081_1600_902_0_320.jpg",
+            "https://img.staticmb.com/mbimages/project/Photo_h0_w320/2022/06/15/Project-Photo-12-Advaitha-Aksha-Bangalore-5121081_600_800_0_320.jpg",
+            "https://img.staticmb.com/mbphoto/property/cropped_images/2024/Aug/21/Photo_h0_w320/74459995_12_dvaithaakshamodularkitchen4bhkflatskoramangalabangalore_0_320.jpg"
+          ],
+          "price": 15500,
+          "title": "Modern Apartment in HSR Layout"
+        },
+        {
+          "Uu_id": 32,
+          "agentEmail": "rita.sharma@gmail.com",
+          "agentName": "Rita Sharma",
+          "agentPhone": "+91-9876543241",
+          "amenities": [
+            "WiFi",
+            "Housekeeping",
+            "Meals"
+          ],
+          "description": "A cozy and affordable PG accommodation in Indiranagar.",
+          "location": "Indiranagar",
+          "photos": [
+            "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2022/Feb/23/full_photo/GR2-273595-1283377.jpg",
+            "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2022/Feb/23/full_photo/GR2-273595-1283381.jpg",
+            "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2022/Feb/23/full_photo/GR2-273595-1283383.jpg"
+          ],
+          "price": 4000,
+          "title": "Cozy PG in Indiranagar"
+        },
+        {
+          "Uu_id": 33,
+          "agentEmail": "nitin.kapoor@gmail.com",
+          "agentName": "Nitin Kapoor",
+          "agentPhone": "+91-9876543242",
+          "amenities": [
+            "WiFi",
+            "Swimming Pool",
+            "Gym"
+          ],
+          "description": "A luxurious 4BHK villa with a private garden in BTM Layout.",
+          "location": "BTM Layout",
+          "photos": [
+            "https://img.staticmb.com/mbphoto/property/cropped_images/2024/Aug/17/Photo_h0_w320/74409709_5_PropertyImage244-0655493995565_0_320.jpg",
+            "https://img.staticmb.com/mbphoto/property/cropped_images/2024/Apr/30/Photo_h0_w320/8576_Balcony1stfloor_0_320.jpg",
+            "https://img.staticmb.com/mbphoto/property/cropped_images/2024/Apr/30/Photo_h0_w320/8641_GuestBedEastFacing1stFloor_0_320.jpg"
+          ],
+          "price": 33000,
+          "title": "Spacious Villa in BTM Layout"
+        },
+        {
+          "Uu_id": 34,
+          "agentEmail": "madhuri.sen@gmail.com",
+          "agentName": "Madhuri Sen",
+          "agentPhone": "+91-9876543243",
+          "amenities": [
+            "WiFi",
+            "Gym",
+            "Parking"
+          ],
+          "description": "A stylish 1BHK studio apartment in the vibrant area of Bellandur.",
+          "location": "Bellandur",
+          "photos": [
+            "https://img.staticmb.com/mbphoto/property/cropped_images/2024/May/08/Photo_h0_w320/72697729_1_PropertyImage949-7163693436665_0_320.jpg",
+            "https://img.staticmb.com/mbphoto/property/cropped_images/2024/May/08/Photo_h0_w320/72697729_1_PropertyImage584-9541709137852_0_320.jpg",
+            "https://img.staticmb.com/mbphoto/property/cropped_images/2024/May/08/Photo_h0_w320/72697729_9_PropertyImage2-9465292012138544_0_320.jpg"
+          ],
+          "price": 9500,
+          "title": "1BHK Studio in Bellandur"
+        },
+        {
+          "Uu_id": 35,
+          "agentEmail": "amit.kumar@gmail.com",
+          "agentName": "Amit Kumar",
+          "agentPhone": "+91-9876543244",
+          "amenities": [
+            "WiFi",
+            "Housekeeping",
+            "Meals"
+          ],
+          "description": "A budget-friendly PG accommodation in Bellandur.",
+          "location": "Bellandur",
+          "photos": [
+            "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2022/Apr/07/Photo_h400_w540/GR2-278849-1327329_400_540.jpeg",
+            "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2022/Apr/07/full_photo/GR2-278849-1327327.jpeg",
+            "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2022/Apr/07/full_photo/GR2-278849-1327329.jpeg"
+          ],
+          "price": 7500,
+          "title": "Budget PG in Bellandur"
+        },
+        {
+          "Uu_id": 36,
+          "agentEmail": "aarti.desai@gmail.com",
+          "agentName": "Aarti Desai",
+          "agentPhone": "+91-9876543245",
+          "amenities": [
+            "WiFi",
+            "Gym",
+            "24/7 Security"
+          ],
+          "description": "A luxurious 3BHK condo with modern amenities in Bellandur.",
+          "location": "Bellandur",
+          "photos": [
+            "https://img.staticmb.com/mbimages/project/Photo_h0_w320/2024/05/03/Project-Photo-46-Prestige-Sunrise-Park-Bangalore-5019467_963_1280_0_320.jpg",
+            "https://img.staticmb.com/mbphoto/property/cropped_images/2024/Aug/27/Photo_h0_w320/74565719_12_hatsAppImage20240801at1.09.13PM2_0_320.jpeg",
+            "https://img.staticmb.com/mbphoto/property/cropped_images/2024/Aug/27/Photo_h0_w320/74565719_2_hatsAppImage20240801at1.09.14PM2_0_320.jpeg"
+          ],
+          "price": 16000,
+          "title": "Luxury Condo in Bellandur"
+        },
+        {
+          "Uu_id": 37,
+          "agentEmail": "praveen.reddy@gmail.com",
+          "agentName": "Praveen Reddy",
+          "agentPhone": "+91-9876543246",
+          "amenities": [
+            "WiFi",
+            "Parking",
+            "24/7 Security"
+          ],
+          "description": "A spacious 2BHK flat in a prime location in Bellandur.",
+          "location": "Bellandur",
+          "photos": [
+            "https://img.staticmb.com/mbimages/project/Photo_h0_w320/2023/04/25/Project-Photo-17-Sri-Tirumala-Ambience-Bangalore-5118235_1200_1600_0_320.jpg",
+            "https://img.staticmb.com/mbphoto/property/cropped_images/2024/Mar/01/Photo_h0_w320/71585859_3_PropertyImage1709300499676_0_320.jpg",
+            "https://img.staticmb.com/mbphoto/property/cropped_images/2024/Mar/01/Photo_h0_w320/71585859_3_PropertyImage1709300499676_0_320.jpg"
+          ],
+          "price": 17000,
+          "title": "2BHK Flat in Bellandur"
+        },
+        {
+          "Uu_id": 38,
+          "agentEmail": "sneha.patel@gmail.com",
+          "agentName": "Sneha Patel",
+          "agentPhone": "+91-9876543247",
+          "amenities": [
+            "WiFi",
+            "Housekeeping",
+            "Meals"
+          ],
+          "description": "A single room accommodation in a shared apartment in Marathahalli.",
+          "location": "Marathahalli",
+          "photos": [
+            "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2023/Nov/09/Photo_h400_w540/GR2-398081-1937651_400_540.jpg",
+            "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2023/Nov/09/Photo_h400_w540/GR2-398081-1937651_400_540.jpg",
+            "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2023/Sep/26/Photo_h400_w540/GR2-398081-1895955_400_540.jpg"
+          ],
+          "price": 7500,
+          "title": "Single Room in Marathahalli"
+        },
+        {
+          "Uu_id": 39,
+          "agentEmail": "arun.kumar@gmail.com",
+          "agentName": "Arun Kumar",
+          "agentPhone": "+91-9876543248",
+          "amenities": [
+            "WiFi",
+            "Gym",
+            "Parking"
+          ],
+          "description": "A well-furnished 3BHK apartment in Sarjapur.",
+          "location": "Sarjapur",
+          "photos": [
+            "https://img.staticmb.com/mbphoto/locality/cropped_images/2022/Jan/21/Photo_h0_w320/79498_Zone-by-the-Park-Hotel3_0_320.jpg",
+            "https://img.staticmb.com/mbphoto/property/cropped_images/2024/Jun/17/Photo_h0_w320/73368357_4_PropertyImage105-56149708658936_0_320.jpg",
+            "https://img.staticmb.com/mbphoto/property/cropped_images/2024/Jun/17/Photo_h0_w320/73368357_4_PropertyImage105-56149708658936_0_320.jpg"
+          ],
+          "price": 23500,
+          "title": "3BHK Apartment in Sarjapur"
+        },
+        {
+          "Uu_id": 40,
+          "agentEmail": "sonali.jain@gmail.com",
+          "agentName": "Sonali Jain",
+          "agentPhone": "+91-9876543249",
+          "amenities": [
+            "WiFi",
+            "Swimming Pool",
+            "Gym"
+          ],
+          "description": "A luxurious penthouse with a stunning view in BTM Layout.",
+          "location": "BTM Layout",
+          "photos": [
+            "https://img.staticmb.com/mbimages/project/Photo_h0_w320/Project-Photo-10-Urban-Ecospace-Bangalore-5092287_281_800_0_320.jpg",
+            "https://img.staticmb.com/mbphoto/property/cropped_images/2023/Aug/22/Photo_h0_w320/6b3d8273-e83f-4c36-b317-389340102796_67923317_0_320.jpg",
+            "https://img.staticmb.com/mbphoto/property/cropped_images/2023/Aug/22/Photo_h0_w320/6b3d8273-e83f-4c36-b317-389340102796_67923317_0_320.jpg"
+          ],
+          "price": 37000,
+          "title": "Penthouse in BTM Layout"
+        },
+        {
+          "Uu_id": 41,
+          "agentEmail": "sandeep.nair@gmail.com",
+          "agentName": "Sandeep Nair",
+          "agentPhone": "+91-9876543250",
+          "amenities": [
+            "WiFi",
+            "Parking",
+            "24/7 Security"
+          ],
+          "description": "A beautiful and modern 2BHK apartment in the heart of Indiranagar.",
+          "location": "Indiranagar",
+          "photos": [
+            "https://img.staticmb.com/mbimages/project/Photo_h0_w320/2021/12/15/Project-Photo-108-Prestige-Pine-Wood-Bangalore-5078728_1080_1920_0_320.jpeg",
+            "https://img.staticmb.com/mbimages/project/Photo_h0_w320/Floor-Plan-32-Prestige-Pine-Wood-Bangalore-5078728_713_1024_0_320.jpeg",
+            "https://img.staticmb.com/mbimages/project/Photo_h0_w320/2021/12/15/Project-Photo-109-Prestige-Pine-Wood-Bangalore-5078728_1080_1920_0_320.jpeg"
+          ],
+          "price": 13000,
+          "title": "Modern Apartment in Indiranagar"
+        },
+        {
+          "Uu_id": 42,
+          "agentEmail": "neeraj.sharma@gmail.com",
+          "agentName": "Neeraj Sharma",
+          "agentPhone": "+91-9876543251",
+          "amenities": [
+            "WiFi",
+            "Housekeeping",
+            "Meals"
+          ],
+          "description": "A cozy and affordable PG accommodation in BTM Layout.",
+          "location": "BTM Layout",
+          "photos": [
+            "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2023/Aug/22/Photo_h400_w540/GR2-376741-1860215_400_540.png",
+            "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2023/Nov/23/Photo_h400_w540/GR2-376741-1950439_400_540.png",
+            "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2023/Nov/23/Photo_h400_w540/GR2-376741-1950433_400_540.png"
+          ],
+          "price": 6500,
+          "title": "Cozy PG in BTM Layout"
+        },
+        {
+          "Uu_id": 43,
+          "agentEmail": "divya.mehta@gmail.com",
+          "agentName": "Divya Mehta",
+          "agentPhone": "+91-9876543252",
+          "amenities": [
+            "WiFi",
+            "Swimming Pool",
+            "Gym"
+          ],
+          "description": "A luxurious 4BHK villa with a private garden in HSR Layout.",
+          "location": "HSR Layout",
+          "photos": [
+            "https://img.staticmb.com/mbphoto/property/cropped_images/2022/Oct/03/Photo_h0_w320/63453523_2_1664776838533-278_0_320.jpg",
+            "https://img.staticmb.com/mbphoto/property/cropped_images/2022/Oct/03/Photo_h0_w320/63453523_2_1664776838533-278_0_320.jpg",
+            "https://img.staticmb.com/mbphoto/property/cropped_images/2022/Oct/03/Photo_h0_w320/63453523_4_1664776853881-242_0_320.jpg"
+          ],
+          "price": 32000,
+          "title": "Spacious Villa in HSR Layout"
+        },
+        {
+          "Uu_id": 44,
+          "agentEmail": "ravi.kumar@gmail.com",
+          "agentName": "Ravi Kumar",
+          "agentPhone": "+91-9876543253",
+          "amenities": [
+            "WiFi",
+            "Gym",
+            "Parking"
+          ],
+          "description": "A stylish 1BHK studio apartment in the vibrant area of HSR Layout.",
+          "location": "HSR Layout",
+          "photos": [
+            "https://img.staticmb.com/mbphoto/locality/cropped_images/2022/Jan/21/Photo_h0_w320/79506_Hotel-Royal-Orchid-Bangalore3_0_320.jpg",
+            "https://img.staticmb.com/mbphoto/property/cropped_images/2021/Feb/11/Photo_h0_w320/39373021_1_DSC01558_0_320.JPG",
+            "https://img.staticmb.com/mbphoto/property/cropped_images/2021/Feb/11/Photo_h0_w320/39373021_3_DSC01550_0_320.JPG"
+          ],
+          "price": 11000,
+          "title": "1BHK Studio in HSR Layout"
+        },
+        {
+          "Uu_id": 45,
+          "agentEmail": "meera.singh@gmail.com",
+          "agentName": "Meera Singh",
+          "agentPhone": "+91-9876543254",
+          "amenities": [
+            "WiFi",
+            "Housekeeping",
+            "Meals"
+          ],
+          "description": "A budget-friendly PG accommodation in HSR Layout.",
+          "location": "HSR Layout",
+          "photos": [
+            "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2022/Dec/31/Photo_h400_w540/GR2-339609-1602609_400_540.jpeg",
+            "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2022/Dec/31/Photo_h400_w540/GR2-339609-1602633_400_540.jpeg",
+            "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2022/Dec/31/Photo_h400_w540/GR2-339609-1602631_400_540.jpeg"
+          ],
+          "price": 6500,
+          "title": "Budget PG in HSR Layout"
+        },
+        {
+          "Uu_id": 46,
+          "agentEmail": "vikram.sharma@gmail.com",
+          "agentName": "Vikram Sharma",
+          "agentPhone": "+91-9876543255",
+          "amenities": [
+            "WiFi",
+            "Gym",
+            "24/7 Security"
+          ],
+          "description": "A luxurious 3BHK condo with modern amenities in HSR Layout.",
+          "location": "HSR Layout",
+          "photos": [
+            "https://img.staticmb.com/mbimages/project/Photo_h0_w320/2023/04/17/Project-Photo-5-SV-Residency-Bangalore-5001649_1500_2000_0_320.jpg",
+            "https://img.staticmb.com/mbphoto/property/cropped_images/2024/Jul/06/Photo_h0_w320/73685693_1_hatsAppImage20240706at9.46.23AM_0_320.jpeg",
+            "https://img.staticmb.com/mbphoto/property/cropped_images/2024/Jul/06/Photo_h0_w320/73685693_1_hatsAppImage20240706at9.46.23AM_0_320.jpeg"
+          ],
+          "price": 23500,
+          "title": "Luxury Condo in HSR Layout"
+        },
+        {
+          "Uu_id": 47,
+          "agentEmail": "anil.gupta@gmail.com",
+          "agentName": "Anil Gupta",
+          "agentPhone": "+91-9876543256",
+          "amenities": [
+            "WiFi",
+            "Parking",
+            "24/7 Security"
+          ],
+          "description": "A spacious 2BHK flat in a prime location in HSR Layout.",
+          "location": "HSR Layout",
+          "photos": [
+            "https://img.staticmb.com/mbimages/project/Photo_h0_w320/Site-Photos-35-Mahaveer-Oberon-Bangalore-5007608_1296_972_0_320.JPEG",
+            "https://img.staticmb.com/mbimages/project/Photo_h0_w320/Site-Photos-35-Mahaveer-Oberon-Bangalore-5007608_1296_972_0_320.JPEG",
+            "https://img.staticmb.com/mbphoto/property/cropped_images/2024/Jul/22/Photo_h0_w320/73964787_6_20240721120329_0_320.jpg"
+          ],
+          "price": 17000,
+          "title": "2BHK Flat in HSR Layout"
+        },
+        {
+          "Uu_id": 48,
+          "agentEmail": "swati.patel@gmail.com",
+          "agentName": "Swati Patel",
+          "agentPhone": "+91-9876543257",
+          "amenities": [
+            "WiFi",
+            "Housekeeping",
+            "Meals"
+          ],
+          "description": "A single room accommodation in a shared apartment in HSR Layout.",
+          "location": "HSR Layout",
+          "photos": [
+            "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2023/Sep/26/full_photo/GR2-398181-1896737.png",
+            "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2023/Sep/26/full_photo/GR2-398181-1896729.png",
+            "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2023/Sep/26/full_photo/GR2-398181-1896735.png"
+          ],
+          "price": 7000,
+          "title": "Single Room in HSR Layout"
+        },
+        {
+          "Uu_id": 49,
+          "agentEmail": "ritika.kapoor@gmail.com",
+          "agentName": "Ritika Kapoor",
+          "agentPhone": "+91-9876543258",
+          "amenities": [
+            "WiFi",
+            "Gym",
+            "Parking"
+          ],
+          "description": "A well-furnished 3BHK apartment in HSR Layout.",
+          "location": "HSR Layout",
+          "photos": [
+            "https://img.staticmb.com/mbimages/project/Photo_h0_w320/2018/10/15/Project-Photo-15-Urban-Ecospace-Bangalore-5092287_525_700_0_320.jpg",
+            "https://img.staticmb.com/mbimages/project/Photo_h0_w320/2018/10/15/Floor-Plan-16-Urban-Ecospace-Bangalore-5092287_560_850_0_320.jpg",
+            "https://img.staticmb.com/mbimages/project/Photo_h0_w320/2018/10/15/Project-Photo-17-Urban-Ecospace-Bangalore-5092287_525_700_0_320.jpg"
+          ],
+          "price": 19000,
+          "title": "3BHK Apartment in HSR Layout"
+        },
+        {
+          "Uu_id": 50,
+          "agentEmail": "rajesh.reddy@gmail.com",
+          "agentName": "Rajesh Reddy",
+          "agentPhone": "+91-9876543259",
+          "amenities": [
+            "WiFi",
+            "Swimming Pool",
+            "Gym"
+          ],
+          "description": "A luxurious penthouse with a stunning view in HSR Layout.",
+          "location": "HSR Layout",
+          "photos": [
+            "https://img.staticmb.com/mbphoto/property/cropped_images/2024/Aug/05/Photo_h0_w320/74195693_1_hatsAppImage20240802at11.50.36AM_0_320.jpeg",
+            "https://img.staticmb.com/mbphoto/property/cropped_images/2024/Aug/05/Photo_h0_w320/74195693_11_hatsAppImage20240802at11.50.55AM_0_320.jpeg",
+            "https://img.staticmb.com/mbphoto/property/cropped_images/2024/Aug/05/Photo_h0_w320/74195693_10_hatsAppImage20240802at11.50.59AM_0_320.jpeg"
+          ],
+          "price": 35000,
+          "title": "Penthouse in HSR Layout"
+        },
+        {
+          "Uu_id": 51,
+          "agentEmail": "sonia.verma@gmail.com",
+          "agentName": "Sonia Verma",
+          "agentPhone": "+91-9876543260",
+          "amenities": [
+            "WiFi",
+            "Parking",
+            "24/7 Security"
+          ],
+          "description": "A beautiful and modern 2BHK apartment in the heart of BTM Layout.",
+          "location": "BTM Layout",
+          "photos": [
+            "https://img.staticmb.com/mbimages/project/Photo_h0_w320/Project-Photo-50-La-Palazzo-Bangalore-5040390_600_800_0_320.jpg",
+            "https://img.staticmb.com/mbimages/project/Photo_h0_w320/Floor-Plan-38-La-Palazzo-Bangalore-5040390_584_977_0_320.jpg",
+            "https://img.staticmb.com/mbphoto/property/cropped_images/2024/May/26/Photo_h0_w320/72999505_15_hatsAppImage20240526at1.29.02PM_0_320.jpeg"
+          ],
+          "price": 16400,
+          "title": "Modern Apartment in BTM Layout"
+        },
+        {
+          "Uu_id": 52,
+          "agentEmail": "deepak.sharma@gmail.com",
+          "agentName": "Deepak Sharma",
+          "agentPhone": "+91-9876543261",
+          "amenities": [
+            "WiFi",
+            "Housekeeping",
+            "Meals"
+          ],
+          "description": "A cozy and affordable PG accommodation in Koramangala.",
+          "location": "Koramangala",
+          "photos": [
+            "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2024/Apr/13/Photo_h400_w540/GR2-361019-2102683_400_540.png",
+            "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2024/Apr/13/Photo_h400_w540/GR2-361019-2102701_400_540.png",
+            "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2024/Apr/13/Photo_h400_w540/GR2-361019-2102705_400_540.png"
+          ],
+          "price": 7600,
+          "title": "Cozy PG in Koramangala"
+        },
+        {
+          "Uu_id": 53,
+          "agentEmail": "karan.patel@gmail.com",
+          "agentName": "Karan Patel",
+          "agentPhone": "+91-9876543262",
+          "amenities": [
+            "WiFi",
+            "Swimming Pool",
+            "Gym"
+          ],
+          "description": "A luxurious 4BHK villa with a private garden in Bellandur.",
+          "location": "Bellandur",
+          "photos": [
+            "https://img.staticmb.com/mbphoto/property/cropped_images/2024/Aug/22/Photo_h0_w320/74482765_4_24922555248302093199569562161768665713469013n_0_320.jpg",
+            "https://img.staticmb.com/mbphoto/property/cropped_images/2024/Aug/22/Photo_h0_w320/74482765_3_12092804253225766873276043325222529455146171n_0_320.jpg",
+            "https://img.staticmb.com/mbphoto/property/cropped_images/2024/Aug/22/Photo_h0_w320/74482765_2_2671569274951527804976842634473222494548479n_0_320.jpg"
+          ],
+          "price": 27000,
+          "title": "Spacious Villa in Bellandur"
+        },
+        {
+          "Uu_id": 54,
+          "agentEmail": "nisha.joshi@gmail.com",
+          "agentName": "Nisha Joshi",
+          "agentPhone": "+91-9876543263",
+          "amenities": [
+            "WiFi",
+            "Gym",
+            "Parking"
+          ],
+          "description": "A stylish 1BHK studio apartment in the vibrant area of Koramangala.",
+          "location": "Koramangala",
+          "photos": [
+            "https://img.staticmb.com/mbimages/project/Photo_h0_w320/Project-Photo-11-Victoria-Haven-Bangalore-5031772_1296_972_0_320.JPEG",
+            "https://img.staticmb.com/mbphoto/property/cropped_images/2024/Feb/23/Photo_h0_w320/71542821_6_PropertyImage789-9603842187295_0_320.jpg",
+            "https://img.staticmb.com/mbphoto/property/cropped_images/2024/Feb/23/Photo_h0_w320/71542821_6_PropertyImage789-9603842187295_0_320.jpg"
+          ],
+          "price": 14500,
+          "title": "1BHK Studio in Koramangala"
+        },
+        {
+          "Uu_id": 55,
+          "agentEmail": "ravi.desai@gmail.com",
+          "agentName": "Ravi Desai",
+          "agentPhone": "+91-9876543264",
+          "amenities": [
+            "WiFi",
+            "Housekeeping",
+            "Meals"
+          ],
+          "description": "A budget-friendly PG accommodation in Koramangala.",
+          "location": "Koramangala",
+          "photos": [
+            "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2021/Nov/02/Photo_h400_w540/GR2-247417-1161933_400_540.jpg",
+            "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2021/Nov/02/Photo_h400_w540/GR2-247417-1161933_400_540.jpg",
+            "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2021/Nov/07/full_photo/GR2-247417-1166805.jpg"
+          ],
+          "price": 8000,
+          "title": "Budget PG in Koramangala"
+        }
+      ]
+  }
