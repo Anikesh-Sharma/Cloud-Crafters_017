@@ -15,7 +15,7 @@ const Footer = () => {
         <footer>
             <div className={styles.footerMain}>
                 <div className={styles.footerLogo}>
-                    <img src={Logo} alt="RentEase" />
+                    <img src={Logo}  alt="RentEase" />
                     <div>
                         <RiFacebookFill className={styles.footerIcons} />
                         <FaTwitter className={styles.footerIcons} />

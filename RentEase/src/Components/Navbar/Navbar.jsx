@@ -19,7 +19,7 @@ const Navbar = () => {
         <header>
             <nav>
                 <div>
-                    <img className={styles.logo} src={logo} alt="Havenhomes" />
+                    <img className={styles.logo} src={logo}  alt="Havenhomes" />
                 </div>
                 <div className={`${styles.navlinksContainer} ${isMenuOpen ? styles.open : ""}`}>
                     <div id="navlinksofall" className={styles.navlinks}>
