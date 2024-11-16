@@ -1,0 +1,232 @@
+*{
+    font-family: Poppins, sans-serif;
+    scroll-behavior: smooth;
+    text-align: center;
+}
+/* Style for the filter container */
+div > h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  /* Input Fields */
+  input[type="number"],input[type="text"] {
+    width: 150px;
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    font-size: 0.9rem;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  input[type="number"]:focus ,
+  input[type="text"]:focus{
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.8);
+    border-color: #007bff;
+  }
+  
+  /* Button Styles */
+  button {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+  
+  button:active {
+    background-color: #003f7f;
+    transform: scale(0.95);
+  }
+  
+  /* Filter and Buttons Container */
+  div {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+/* 
+  #parentPropertyList {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .childPropertyList {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .childPropertyList:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .childPropertyList img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .childPropertyList h2 {
+    font-size: 1.3rem;
+    color: #333;
+    margin: 10px 0;
+  }
+  
+  .childPropertyList p {
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  .childPropertyList .amenities span {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 5px 10px;
+    margin: 5px 5px 0 0;
+    border-radius: 15px;
+    font-size: 0.8rem;
+  }
+  
+  .childPropertyList .price {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #007bff;
+    margin-top: 10px;
+  } */
+
+  #parentPropertyList {
+    
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Ensures items wrap to next line if needed */
+    gap: 16px; /* Add spacing between the cards */
+  }
+  
+  .childPropertyList {
+    width: 100%; /* Full width of parent container */
+    max-width: 400px; /* Optional: Adjust this value based on how many items you want per row */
+    height: 400px; 
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ddd; /* Optional: Adds border to the card */
+    border-radius: 8px; /* Optional: Adds rounded corners */
+    overflow: hidden; /* Ensures content doesn't overflow */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds subtle shadow to the card */
+  }
+  
+  .childPropertyList img {
+    width: 100%; /* Takes up full width of the parent container */
+    height: 250px; /* Fixed height for the image */
+    object-fit: cover; /* Ensures image maintains aspect ratio without stretching */
+    border-top-left-radius: 8px; /* Optional: Adds rounded corners to the image */
+    border-top-right-radius: 8px; /* Optional: Adds rounded corners to the image */
+  }
+  
+  .childPropertyList h2 {
+    font-size: 18px;
+    margin: 10px 0;
+    text-align: center; /* Centers the title */
+  }
+  
+  .childPropertyList p {
+    font-size: 14px;
+    margin: 5px 0;
+    text-align: center; /* Centers the text */
+  }
+  
+  .childPropertyList .amenities {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 10px;
+    justify-content: center;
+  }
+  
+  .childPropertyList .amenities span {
+    background-color: #f0f0f0; /* Light gray background for amenities */
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    color: #555; /* Darker text color */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Adds subtle shadow for better contrast */
+  }
+  
+  .childPropertyList .price {
+    font-size: 16px;
+    font-weight: bold;
+    color: #f44336; /* Price in red to make it stand out */
+    margin-top: 10px;
+  }
+
+  .search-container {
+    position: relative;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .search-input {
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .search-input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+  }
+  
+  .suggestions-container {
+    position: absolute;
+    list-style: none;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    max-height: 200px;
+    overflow-y: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
+  
+  .suggestion-item {
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .suggestion-item:hover {
+    background-color: #f0f0f0;
+  }
