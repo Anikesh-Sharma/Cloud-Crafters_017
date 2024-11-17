@@ -18,7 +18,7 @@ const amenitiesData = [
     },
     {
         amenityName: 'Parking',
-        imgPath: 'https://images.pexels.com/photos/2696064/pexels-photo-2696064.jpeg?auto=compress&cs=tinysrgb&h=400',
+        imgPath: 'https://images.pexels.com/photos/753876/pexels-photo-753876.jpeg?auto=compress&cs=tinysrgb&h=400',
     },
     {
         amenityName: 'Private Security',
@@ -34,7 +34,7 @@ const amenitiesData = [
     },
     {
         amenityName: 'Wifi',
-        imgPath: 'https://images.pexels.com/photos/156093/pexels-photo-156093.jpeg?auto=compress&cs=tinysrgb&h=400',
+        imgPath: 'https://images.pexels.com/photos/4218546/pexels-photo-4218546.jpeg?auto=compress&cs=tinysrgb&w=400',
     },
     {
         amenityName: 'Library',
@@ -42,11 +42,11 @@ const amenitiesData = [
     },
     {
         amenityName: 'Cafeteria',
-        imgPath: 'https://images.pexels.com/photos/414380/pexels-photo-414380.jpeg?auto=compress&cs=tinysrgb&h=400',
+        imgPath: 'https://images.pexels.com/photos/1833320/pexels-photo-1833320.jpeg?auto=compress&cs=tinysrgb&w=600',
     },
     {
-        amenityName: 'Hair Dryer',
-        imgPath: 'https://images.pexels.com/photos/3992941/pexels-photo-3992941.jpeg?auto=compress&cs=tinysrgb&h=400',
+        amenityName: 'Hair Salon',
+        imgPath: 'https://images.pexels.com/photos/1813272/pexels-photo-1813272.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     },
 ]
 
