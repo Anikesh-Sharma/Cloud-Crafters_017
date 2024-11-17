@@ -17,7 +17,7 @@ const AdminDashboard = () => {
     const fetchProperties = async () => {
         try {
             const response = await axios.get(
-                "https://heavenhome-66467-default-rtdb.asia-southeast1.firebasedatabase.app/properties.json"
+                "https://cloud-crafters-f5ef7-default-rtdb.firebaseio.com/properties.json"
             );
 
             let filteredProperties = response.data;
@@ -35,7 +35,7 @@ const AdminDashboard = () => {
 
     const handleDelete = async (key) => {
         try {
-            await axios.delete(`https://heavenhome-66467-default-rtdb.asia-southeast1.firebasedatabase.app/properties/${key}.json`);
+            await axios.delete(`https://cloud-crafters-f5ef7-default-rtdb.firebaseio.com/properties/${key}.json`);
             const updatedProperties = { ...properties };
             delete updatedProperties[key]; // Remove the deleted property from the local state
             setProperties(updatedProperties);

@@ -12,7 +12,7 @@ const PropertyCardDetail = () => {
 
     let newid = id - 1
     const [property, setProperty] = useState()
-    const propertyUrl = `https://heavenhome-66467-default-rtdb.asia-southeast1.firebasedatabase.app/properties/${newid}.json`
+    const propertyUrl = `https://cloud-crafters-f5ef7-default-rtdb.firebaseio.com/properties/${newid}.json`
 
     const fetchData = async () => {
 

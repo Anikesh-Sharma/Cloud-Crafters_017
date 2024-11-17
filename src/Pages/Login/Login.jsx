@@ -19,7 +19,7 @@ const Login = () => {
 
     const handleGoogleClick = () => {
         signInWithPopup(auth, provider).then((data) => {
-            axios.get("https://heavenhome-66467-default-rtdb.asia-southeast1.firebasedatabase.app/users.json")
+            axios.get("https://cloud-crafters-f5ef7-default-rtdb.firebaseio.com/users.json")
                 .then((res) => {
                     let filterdata = Object.entries(res.data).filter(([key, e]) => {
                         return data.user.email == e.emailID
@@ -47,7 +47,7 @@ const Login = () => {
         e.preventDefault();
 
         const apiUrl =
-            "https://heavenhome-66467-default-rtdb.asia-southeast1.firebasedatabase.app/users.json";
+            "https://cloud-crafters-f5ef7-default-rtdb.firebaseio.com/users.json";
 
         axios
             .get(apiUrl)

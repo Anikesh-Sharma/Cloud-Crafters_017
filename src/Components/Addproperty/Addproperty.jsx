@@ -36,7 +36,7 @@ const Addproperty = () => {
             agentPhone,
         };
 
-        const apiUrl = 'https://heavenhome-66467-default-rtdb.asia-southeast1.firebasedatabase.app/properties.json';
+        const apiUrl = 'https://cloud-crafters-f5ef7-default-rtdb.firebaseio.com/properties.json';
 
         axios
             .post(apiUrl, propertyData)
