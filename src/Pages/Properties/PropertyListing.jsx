@@ -33,7 +33,7 @@ const PropertyListing = () => {
         const fetchProperties = async () => {
             try {
                 const response = await axios.get(
-                    "https://heavenhome-66467-default-rtdb.asia-southeast1.firebasedatabase.app/properties.json"
+                    "https://cloud-crafters-f5ef7-default-rtdb.firebaseio.com/properties.json"
                 );
                 const fetchedProperties = Object.values(response.data);
                 setProperties(fetchedProperties);
