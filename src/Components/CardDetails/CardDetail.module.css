@@ -2,6 +2,7 @@
     display: flex;
     gap: 40px;
     margin-top: 20px;
+    justify-content: space-between;
 }
 
 .CardDetailContainer {
@@ -28,7 +29,7 @@
 }
 
 .CardDetailContainerDetail h2 {
-    color: #ea210f;
+    color: #630feb;
     font-size: 2rem;
     margin-top: 5px;
     margin-bottom: 10px;
@@ -90,7 +91,7 @@
 }
 
 .checkout>span:nth-of-type(1) {
-    color: #ea210f;
+    color: #894cec;
     font-size: 22px;
 }
 
@@ -147,4 +148,11 @@
 
 .checkout p:nth-of-type(2) {
     color: #0d0d0d;
+}
+
+.imageName img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
 }
