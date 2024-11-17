@@ -1,20 +1,15 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import styles from './PropertyListing.module.css';
-
 import axios from 'axios';
 import PropertyCard from '../../Components/PropertyCard/PropertyCard';
 
-
 const PropertyListing = () => {
- 
-
     const [properties, setProperties] = useState([]);
     const [filteredProperties, setFilteredProperties] = useState([]);
     const [searchTerm, setSearchTerm] = useState(sessionStorage.getItem('searchTerm') || "");
     const [selectedBhk, setSelectedBhk] = useState(sessionStorage.getItem('selectedBhk') || "");
     const [selectedLocation, setSelectedLocation] = useState(sessionStorage.getItem('selectedLocation') || "");
     const [sortOrder, setSortOrder] = useState(sessionStorage.getItem('sortOrder') || "default");
-
     const [suggestions, setSuggestions] = useState([]);
     const [currentPage, setCurrentPage] = useState(1);
     const [propertiesPerPage] = useState(9);
@@ -69,14 +64,15 @@ const PropertyListing = () => {
                 property.amenities.some((amenity) =>
                     amenity.toLowerCase().includes(searchTerm.toLowerCase())
                 ) ||
-                property.agentName.toLowerCase().includes(searchTerm.toLowerCase())
+                property.agentName.toLowerCase().includes(searchTerm.toLowerCase()) ||
+                property.agentEmail.toLowerCase().includes(searchTerm.toLowerCase())
             );
         }
 
         if (sortOrder === "asc") {
-            newFilteredProperties.sort((a, b) => a.price - b.price);
+            newFilteredProperties.sort((a, b) => parseFloat(a.price) - parseFloat(b.price));
         } else if (sortOrder === "desc") {
-            newFilteredProperties.sort((a, b) => b.price - a.price);
+            newFilteredProperties.sort((a, b) => parseFloat(b.price) - parseFloat(a.price));
         }
 
         setFilteredProperties(newFilteredProperties);
@@ -104,8 +100,21 @@ const PropertyListing = () => {
     const debouncedFetchSuggestions = useCallback(debounce(fetchSuggestions, 300), [filteredProperties]);
 
     const handleSearchChange = (e) => {
-        setSearchTerm(e.target.value);
-        debouncedFetchSuggestions(e.target.value);
+        const query = e.target.value;
+        setSearchTerm(query);
+
+        const filteredSuggestions = properties.filter(property =>
+            property.title.toLowerCase().includes(query.toLowerCase()) ||
+            property.description.toLowerCase().includes(query.toLowerCase()) ||
+            property.location.toLowerCase().includes(query.toLowerCase()) ||
+            property.amenities.some((amenity) =>
+                amenity.toLowerCase().includes(query.toLowerCase())
+            ) ||
+            property.agentName.toLowerCase().includes(query.toLowerCase()) ||
+            property.agentEmail.toLowerCase().includes(query.toLowerCase())
+        );
+
+        setSuggestions(filteredSuggestions.slice(0, 5));
     };
 
     const indexOfLastProperty = currentPage * propertiesPerPage;
@@ -136,23 +145,23 @@ const PropertyListing = () => {
                     value={searchTerm}
                     onChange={handleSearchChange}
                 />
-               {suggestions.length > 0 && (
-                   <ul className={styles.suggestionsContainer}>
-                       {suggestions.map((suggestion, index) => (
-                           <li
-                               key={index}
-                               className={styles.suggestionItem}
-                               onClick={() => {
-                                   setSearchTerm(suggestion.title);
-                                   setSuggestions([]);
-                               }}
-                           >
-                               {suggestion.title} - {suggestion.location}
-                           </li>
-                       ))}
-                   </ul>
-               )}
-                 <select value={selectedBhk} onChange={(e) => setSelectedBhk(e.target.value)}>
+                {suggestions.length > 0 && (
+                    <ul className={styles.suggestionsContainer}>
+                        {suggestions.map((suggestion, index) => (
+                            <li
+                                key={index}
+                                className={styles.suggestionItem}
+                                onClick={() => {
+                                    setSearchTerm(suggestion.title);
+                                    setSuggestions([]);
+                                }}
+                            >
+                                {suggestion.title} - {suggestion.location}
+                            </li>
+                        ))}
+                    </ul>
+                )}
+                <select value={selectedBhk} onChange={(e) => setSelectedBhk(e.target.value)}>
                     <option value="">All BHK Types</option>
                     <option value="1bhk">1BHK</option>
                     <option value="2bhk">2BHK</option>
@@ -172,11 +181,11 @@ const PropertyListing = () => {
                     <option value="desc">Price: High to Low</option>
                 </select>
             </div>
-    
+
             <div style={{ maxWidth: "1350px", margin: "auto", padding: "20px" }}>
                 <div className={styles.PropertyCardContainer}>
                     {currentProperties.map((property) => (
-                        <PropertyCard key={property.id} property={property} />
+                        <PropertyCard key={property.Uu_id} property={property} />
                     ))}
                 </div>
                 <div className={styles.pagination}>
@@ -191,6 +200,6 @@ const PropertyListing = () => {
             </div>
         </>
     );
-}
+};
 
 export default PropertyListing;
