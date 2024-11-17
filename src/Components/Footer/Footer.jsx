@@ -49,7 +49,7 @@ const Footer = () => {
                     <Link to="/">Karnataka, India</Link>
                 </div>
             </div>
-            <hr />
+            <hr className="mt-4" />
             <div className={styles.footerMainDown}>
                 <span>Copyright © RentEase - 2024</span>
                 <span>All rights reserved | Terms & Conditions | Privacy Policy</span>

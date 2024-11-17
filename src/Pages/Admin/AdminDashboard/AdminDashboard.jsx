@@ -68,8 +68,7 @@ const AdminDashboard = () => {
                     <div key={key} className={styles.show}>
                         <span>{key}.</span>
                         <h2>{property.title}</h2>
-                        <p>₹{property.price}</p>
-                        <img src={property.photos[0]} alt={property.title} />
+                        <p className='ml-auto'>₹{property.price}</p>
                         <div className={styles.buttons}>
                             <button onClick={() => handleEdit(key)}>Edit</button>
                             <button onClick={() => handleDelete(key)}>Delete</button>
