@@ -9,6 +9,7 @@ import { Pagination,  Navigation } from 'swiper/modules';
 import amenityImage from '../../assets/appliance.png'
 import Checkout from '../Checkout/Checkout';
 import toast from 'react-hot-toast';
+import RatingCard from './RatingCard';
 
 
 const CardDetail = ({ property }) => {
@@ -77,36 +78,43 @@ const CardDetail = ({ property }) => {
                     <hr />
                     <div className={classes.amenities}>
                         <div>
-                            <img src={amenityImage} alt="" />
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgpnUp2zq7hGvDSZ_-K9xwPrFugMQQNOpgfA&s" alt="" />
                             <h4>Amenities</h4>
                         </div>
                         {
                             property.amenities.map((amenity, index) => {
                                 return (
                                     <div key={index} className={classes.amenity}>
-                                        <span>✅ {amenity}</span>
+                                        <span>✔️ {amenity}</span>
                                     </div>
                                 )
                             })
                         }
                     </div>
                     <hr />
-                    <div className={classes.CardDetailContainerAgentData}>
+                    
+                </div>
+<RatingCard/>
+                
+
+            </section>
+
+            <section id='lastbox' className={classes.CardDetailSection}>
+                <div className={classes.CardDetailContainerAgentData}>
                         <div className={classes.imageName}>
                             <b>{property.agentName}</b>
+                            <img id="agentid" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSePHvhTlb9rC9VZeITZVWh2lZNOmMi4VoAAA&s" alt="realestate agent photo" />
                             <span> <b> Email:</b> {property.agentEmail}</span>
                             <span> <b> Phone No.</b> {property.agentPhone}</span>
                         </div>
-                    </div>
                 </div>
 
                 <div className={classes.booking}>
-
                     <div className={classes.checkout}>
-                        <span>₹{property.price}</span> <span>+512 taxes</span>
+                        <span>₹{property.price}</span>
                         <p>Agent Name : {property.agentName}</p>
                         <hr />
-                        <p>Total Price: ₹{Number(property.price) + 512}</p>
+                        <p>Total Price: ₹{Number(property.price)}</p>
                         <button onClick={showCheckout} >
                             {show ? "Booked" : "Book Now"}
                         </button>
@@ -122,6 +130,7 @@ const CardDetail = ({ property }) => {
                 </div>
 
             </section>
+            
         </div>
     )
 }
