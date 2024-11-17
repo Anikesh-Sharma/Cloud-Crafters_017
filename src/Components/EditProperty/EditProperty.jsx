@@ -11,7 +11,7 @@ const EditProperty = ({ property, propertyKey, onClose , fetchProperties }) => {
 
     const handleSave = async () => {
         try {
-            await axios.put(`https://heavenhome-66467-default-rtdb.asia-southeast1.firebasedatabase.app/properties/${propertyKey}.json`, {
+            await axios.put(`https://cloud-crafters-f5ef7-default-rtdb.firebaseio.com/properties/${propertyKey}.json`, {
                 ...property,
                 title,
                 description,
