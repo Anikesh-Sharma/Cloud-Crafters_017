@@ -30,7 +30,7 @@ const Register = () => {
       };
       axios
         .get(
-          "https://heavenhome-66467-default-rtdb.asia-southeast1.firebasedatabase.app/users.json"
+          "https://cloud-crafters-f5ef7-default-rtdb.firebaseio.com/users.json"
         )
         .then((res) => {
           let filterdata = Object.entries(res.data).filter(([key, e]) => {
@@ -44,7 +44,7 @@ const Register = () => {
           } else {
             axios
               .post(
-                "https://heavenhome-66467-default-rtdb.asia-southeast1.firebasedatabase.app/users.json",
+                "https://cloud-crafters-f5ef7-default-rtdb.firebaseio.com/users.json",
                 userDetails
               )
               .then((res) => {
@@ -71,7 +71,7 @@ const Register = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    const apiUrl = 'https://heavenhome-66467-default-rtdb.asia-southeast1.firebasedatabase.app/users.json';
+    const apiUrl = 'https://cloud-crafters-f5ef7-default-rtdb.firebaseio.com/users.json';
 
 
     axios.post(apiUrl, formData)
