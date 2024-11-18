@@ -12,10 +12,10 @@ const HomeListing = () => {
     const propertiesData = [
         {
             "id": 1,
-            "title": "Single Room in Bellandur",
-            "description": "A single room accommodation in a shared apartment in Bellandur.",
-            "price": 5000,
-            "location": "Bellandur",
+            "title": "4 BHK luxary room in kormanglam",
+            "description": "Luxary rooms for the complete family",
+            "price": 40000,
+            "location": "Kormanglam",
             "amenities": ["WiFi", "Housekeeping", "Meals"],
             "photos": [
                 "https://images.oyoroomscdn.com/uploads/hotel_image/40154/large/trlbamuvbcwl.jpg",
@@ -24,15 +24,14 @@ const HomeListing = () => {
                 "https://images.oyoroomscdn.com/uploads/hotel_image/40154/large/sushpvoomare.jpg",
                 "https://images.oyoroomscdn.com/uploads/hotel_image/40154/large/isnochhgvbmq.jpg"
             ],
-            "agentImage" : "https://plus.unsplash.com/premium_photo-1671656349322-41de944d259b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8cGVyc29ufGVufDB8fDB8fHww",
-            "agentName": "Rohit Kapoor",
-            "agentEmail": "rohit.kapoor@gmail.com",
-            "agentPhone": "+91-9876543227"
+            "agentName": "Anikesh Sharma",
+            "agentEmail": "anikesh.sharma@gmail.com",
+            "agentPhone": "+91-7985854242"
         },
         {
             "id": 2,
-            "title": "3BHK Apartment in Marathahalli",
-            "description": "A well-furnished 3BHK apartment in Marathahalli.",
+            "title": "3BHK Apartment in HSR Layout",
+            "description": "A well-furnished 3BHK apartment in HSR Layout.",
             "price": 22000,
             "location": "Marathahalli",
             "amenities": ["WiFi", "Gym", "Parking"],
@@ -42,17 +41,16 @@ const HomeListing = () => {
                 "https://images.oyoroomscdn.com/uploads/hotel_image/235096/large/hmpgtcahlrna.jpg",
                 "https://images.oyoroomscdn.com/uploads/hotel_image/235096/large/mxktnhukqbmj.jpg"
             ],
-            "agentImage" : "https://plus.unsplash.com/premium_photo-1664541336896-b3d5f7dec9a3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjV8fHBlcnNvbnxlbnwwfHwwfHx8MA%3D%3D",
-            "agentName": "Seema Arora",
-            "agentEmail": "seema.arora@gmail.com",
-            "agentPhone": "+91-9876543228"
+            "agentName": "Pradeep Maurya",
+            "agentEmail": "pradeepmaurya@gmail.com",
+            "agentPhone": "+91-7846985754"
         },
         {
             "id": 3,
-            "title": "Penthouse in Sarjapur",
-            "description": "A luxurious penthouse with a stunning view in Sarjapur.",
-            "price": 40000,
-            "location": "Sarjapur",
+            "title": "RiverSide view apartment",
+            "description": "A luxurious RiverSide Apartment with a stunning view.",
+            "price": 30000,
+            "location": "Cauvery",
             "amenities": ["WiFi", "Swimming Pool", "Gym"],
             "photos": [
                 "https://images.oyoroomscdn.com/uploads/hotel_image/227295/large/opachurqdjha.jpg",
@@ -61,10 +59,9 @@ const HomeListing = () => {
                 "https://images.oyoroomscdn.com/uploads/hotel_image/227295/large/wgphxvwpsixa.jpg",
                 "https://images.oyoroomscdn.com/uploads/hotel_image/227295/large/hdosgbruaoom.jpg"
             ],
-            "agentImage" : "https://images.unsplash.com/photo-1521566652839-697aa473761a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHBlcnNvbnxlbnwwfHwwfHx8MA%3D%3D",
-            "agentName": "Kajal Tiwari",
-            "agentEmail": "kajal.tiwari@gmail.com",
-            "agentPhone": "+91-9876543229"
+            "agentName": "R deepthi",
+            "agentEmail": "deepthi.r@gmail.com",
+            "agentPhone": "+91-8945123675"
         },
     ]
 
@@ -118,7 +115,6 @@ const HomeListing = () => {
                                 <hr />
                                 <div className={styles.agentContainer}>
                                     <div className={styles.imageName}>
-                                        <img src={property.agentImage} alt="" />
                                         <b>{property.agentName}</b>
                                     </div>
                                     <div>
