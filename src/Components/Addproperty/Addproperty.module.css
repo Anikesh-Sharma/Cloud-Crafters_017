@@ -1,68 +1,100 @@
 /* AdminDashboard.module.css */
-.container {
+@keyframes slideDown {
+    0% {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+.AddpropertyForm {
+    margin-top: 100px !important;
+}
+.AddpropertyForm {
+    max-width: 600px;
+    margin: 50px auto;
     padding: 20px;
-    max-width: 800px;
-    margin: 0 auto;
-}
+    background: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
 
-.heading {
-    font-size: 2em;
-    margin-bottom: 20px;
-}
-
-.AddpropertyForm{
-    width: 1200px;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 30px;
+    /* Animation */
+    animation: slideDown 0.8s ease-in-out;
 }
 
 .AddpropertyForm h4 {
-    font-size: 1.5em;
-    margin-top: 50px;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
 }
 
+/* Rest of the styles stay the same */
 .form {
     display: flex;
     flex-direction: column;
-    width: 500px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 20px;
-    margin: 20px;
+    gap: 15px;
 }
 
 .input,
 .textarea {
-    margin-bottom: 10px;
-    padding: 10px;
-    font-size: 1em;
+    width: 100%;
+    padding: 12px;
     border: 1px solid #ddd;
-    border-radius: 4px;
+    border-radius: 5px;
+    font-size: 16px;
+    background: #fff;
+    transition: all 0.3s ease;
+}
+
+.input:focus,
+.textarea:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+    outline: none;
 }
 
 .textarea {
+    resize: none;
     height: 100px;
 }
 
 .button {
-    padding: 10px;
-    font-size: 1em;
-    background-color: #4CAF50;
+    padding: 12px 20px;
+    font-size: 16px;
+    background-color: #007bff;
     color: #fff;
     border: none;
-    border-radius: 4px;
+    border-radius: 5px;
     cursor: pointer;
+    transition: background 0.3s ease;
 }
 
 .button:hover {
-    background-color: #4caf4fa0;
+    background-color: #0056b3;
 }
 
 .status {
     margin-top: 10px;
-    color: #ff0000;
+    font-size: 14px;
+    color: #28a745;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .AddpropertyForm {
+        padding: 15px;
+    }
+
+    .input,
+    .textarea {
+        font-size: 14px;
+    }
+
+    .button {
+        font-size: 14px;
+    }
 }
