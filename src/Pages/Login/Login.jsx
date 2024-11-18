@@ -55,7 +55,7 @@ const Login = () => {
                 const users = response.data;
 
                 // Check for admin credentials
-                if (email === "admin@gmail.com" && password === "1212") {
+                if (email === "admin@rentease.com" && password === "Rentease") {
                     setStatus("Admin login successful!");
                     adminLogin();
                     navigate("/admin-dashboard/admin"); 
