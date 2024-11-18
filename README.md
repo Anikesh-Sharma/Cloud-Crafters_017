@@ -24,7 +24,7 @@ Frontend
 
 ## Deployed App
 
-[Visit the Deployed App on Netlify]()
+[Visit the Deployed App on Netlify](https://cloud-crafters-017-973k.vercel.app/)
 
 ---
 
