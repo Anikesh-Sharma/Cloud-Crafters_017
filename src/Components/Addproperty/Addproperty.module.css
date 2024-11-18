@@ -1,0 +1,100 @@
+/* AdminDashboard.module.css */
+@keyframes slideDown {
+    0% {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+.AddpropertyForm {
+    margin-top: 100px !important;
+}
+.AddpropertyForm {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+
+    /* Animation */
+    animation: slideDown 0.8s ease-in-out;
+}
+
+.AddpropertyForm h4 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+/* Rest of the styles stay the same */
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.input,
+.textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    background: #fff;
+    transition: all 0.3s ease;
+}
+
+.input:focus,
+.textarea:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+    outline: none;
+}
+
+.textarea {
+    resize: none;
+    height: 100px;
+}
+
+.button {
+    padding: 12px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+.status {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #28a745;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .AddpropertyForm {
+        padding: 15px;
+    }
+
+    .input,
+    .textarea {
+        font-size: 14px;
+    }
+
+    .button {
+        font-size: 14px;
+    }
+}
